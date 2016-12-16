@@ -26,7 +26,7 @@ class LenseController:
     # motor delay
     motorDelay = [0.003, 0.001, 0.001]
 
-    def __init__(self, dummy, dummyy):
+    def __init__(self):
 
         GPIO.setmode(GPIO.BCM)
 
